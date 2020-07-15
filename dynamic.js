@@ -18,3 +18,13 @@ function count(event){
 
   }
 }
+
+const resetButton = document.querySelector(".dynamic-divs");
+
+resetButton.addEventListener("click" , hide);
+
+function hide(){
+ if(resetButton){
+     resetButton.value= "";
+ }
+}
